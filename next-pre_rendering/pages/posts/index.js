@@ -29,7 +29,7 @@ export async function getStaticProps() {
   // return an object which contains a props key
   return {
     props: {
-      posts: data.slice(0, 3)
+      posts: data,
     }
   }
 }
